@@ -1,0 +1,255 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0049)http://localhost/testing/cards.php?stagnant=false -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>CVVBASE.ME | For Your Fresh Dealings </title>
+		<meta content="index, follow" name="robots">
+		
+		<link rel="icon" href="http://localhost/testing/favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="./cards_files/main_style.css">
+		<script type="text/javascript" src="./cards_files/main_script.js.download"></script>
+		<script type="text/javascript">
+
+		// initialise plugins
+		jQuery(function(){
+			jQuery('ul.sf-menu').superfish();
+		});
+		
+		var i18n = {
+            'Are you sure you want to delete?': 'Are you sure you want to delete?'
+        };
+        
+        $(window).ready(function () {
+            $('#ads marquee').marquee('pointer').mouseover(function () {
+                $(this).trigger('stop');
+            }).mouseout(function () {
+                $(this).trigger('start');
+            }).mousemove(function (event) {
+                if ($(this).data('drag') == true) {
+                    this.scrollLeft = $(this).data('scrollX') + ($(this).data('x') - event.clientX);
+                }
+            }).mousedown(function (event) {
+                $(this).data('drag', true).data('x', event.clientX).data('scrollX', this.scrollLeft);
+            }).mouseup(function () {
+                $(this).data('drag', false);
+            });
+        });
+		
+		</script>
+	</head>
+
+	<body id="page">
+		<div id="ads">
+			<div class="pointer" style="display: block-inline; width: 1092px; height: 14px; overflow: hidden;"><div style="float: left; white-space: nowrap; padding: 0px 1092px;"><p>*** FRIDAY FRESH UPDATES ***</p></div></div>
+		</div>
+		
+			
+			
+			
+			
+		<div id="banner"></div>
+		<div id="wraper">
+		
+		
+		<div id="header">
+			<div id="hwrap" class="clearfix">
+								<div id="user">
+					<p>Hello, <a href="https://v-m.su/client/profile">admin</a>!</p>
+					<p>Balance: <span>$3.46</span></p>
+				</div>
+
+				<div id="cart">
+					<p>
+						<a href="http://localhost/testing/cart.php"><img src="./cards_files/basket.png" alt="Go to Cart"></a>
+						<a href="http://localhost/testing/cart.php">0 items for $0.00</a>
+					</p>
+				</div>
+								
+				<div id="logo">
+					<a href="http://localhost/testing/"><img src="./cards_files/logo.png" alt="VaultMarket"></a>
+				</div>
+			</div>
+			<div id="dline" class="clearfix">
+			</div>
+        </div>
+		
+
+		
+
+		
+			<div id="menu">
+				<ul>
+					<li class="first ">
+						<a href="http://localhost/testing/">News</a>
+					</li>
+					<li class="active">
+						<a href="http://localhost/testing/cards.php?stagnant=false">Buy Cards</a>
+					</li>
+					<li><a href="http://localhost/testing/cart.php">Shopping Cart</a></li>
+					<li>
+						<a href="javascript:void(0);">User's Panel</a>
+						<ul>
+							<li><a href="http://localhost/testing/mycards.php">My Cards</a></li>
+							<li><a href="http://localhost/testing/myaccount.php">My Account</a></li>
+							<li><a href="http://localhost/testing/deposit.php">Add Funds</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:void(0);">User's History</a>
+						<ul>
+							<li><a href="http://localhost/testing/mydeposits.php">Deposits History</a></li>
+							<li><a href="http://localhost/testing/myorders.php">Orders History</a></li>
+							<li><a href="http://localhost/testing/mycheck.php">Check History</a></li>
+						</ul>
+					</li>
+					<li class=""><a href="http://localhost/testing/support.php">Support</a></li>
+					<li class="last"><a href="http://localhost/testing/logout.php">Logout</a></li>
+				</ul>
+			</div>
+				<div id="getinfoError" class="centered red bold">
+									</div>
+			
+
+			<div id="content">				<div id="search_cards">
+					<div class="section_title">SEARCH CARDS</div>
+					<div class="section_content">
+						<table class="content_table centered">
+							<tbody>
+								<form id="searchForm" name="searchForm" method="GET" action="http://localhost/testing/cards.php"></form>
+									<input type="hidden" name="stagnant" value="false">
+									<tr>
+										<td class="formstyle">
+											<span class="bold">BIN (+$1.00)</span>
+										</td>
+										<td class="formstyle">
+											<span class="bold">COUNTRY (+$0.00)</span></td>
+										
+										<td class="formstyle">
+											<span class="bold">STATE (+$0.00)</span></td>
+										
+										<td class="formstyle">
+											<span class="bold">CITY (+$0.00)</span></td>
+										
+										<td class="formstyle">
+											<span class="bold">ZIP (+$0.20)</span></td>
+										
+									</tr>
+									<tr>
+										<td>
+											<input name="txtBin" type="text" class="formstyle" id="txtBin" value="" size="12" maxlength="6">
+										</td>
+										<td>
+											<select name="lstCountry" class="formstyle" id="lstCountry">
+												<option value="">All Country</option>
+											</select>
+										</td>
+										<td>
+											<select name="lstState" class="formstyle" id="lstState">
+												<option value="">All State</option>
+											</select>
+										</td>
+										<td>
+											<select name="lstCity" class="formstyle" id="lstCity">
+												<option value="">All City</option>
+											</select>
+										</td>
+										<td>
+											<input name="txtZip" type="text" class="formstyle" id="txtZip" value="" size="12">
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<a href="http://localhost/testing/cards.php?stagnant=false#" onclick="$(&#39;#txtBin&#39;).val(&#39;&#39;);$(&#39;#searchForm&#39;).submit();"><img src="./cards_files/all-icon.png" class="iconcc"></a>
+											<a href="http://localhost/testing/cards.php?stagnant=false#" onclick="$(&#39;#txtBin&#39;).val(3);$(&#39;#searchForm&#39;).submit();"><img src="./cards_files/american-express-icon.png" class="iconcc"></a>
+											<a href="http://localhost/testing/cards.php?stagnant=false#" onclick="$(&#39;#txtBin&#39;).val(4);$(&#39;#searchForm&#39;).submit();"><img src="./cards_files/visa-icon.png" class="iconcc"></a>
+											<a href="http://localhost/testing/cards.php?stagnant=false#" onclick="$(&#39;#txtBin&#39;).val(5);$(&#39;#searchForm&#39;).submit();"><img src="./cards_files/mastercard-icon.png" class="iconcc"></a>
+											<a href="http://localhost/testing/cards.php?stagnant=false#" onclick="$(&#39;#txtBin&#39;).val(6);$(&#39;#searchForm&#39;).submit();"><img src="./cards_files/discover-icon.png" class="iconcc"></a>
+										</td>
+										<td>
+											<span><input type="checkbox" name="boxSSN" id="boxSSN">Have SSN</span>
+										</td>
+										<td>
+											<span><input type="checkbox" name="boxDob" id="boxDob">Have DoB</span>
+										</td>
+										<td colspan="2">
+											<input name="btnSearch" type="submit" class="formstyle" id="btnSearch" value="Search">
+										</td>
+									</tr>
+								
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div id="cards">
+					<div class="section_title">AVAILABLE CARDS</div>
+					<div class="section_page_bar">
+					</div>
+					<div class="section_content">
+						<table class="content_table">
+							<tbody>
+								<form name="addtocart" method="POST" action="http://localhost/testing/cart.php"></form>
+									<tr>
+										<td class="formstyle centered">
+											<span class="bold">CARD TYPE</span>
+										</td>
+										<td class="formstyle centered">
+											<span class="bold">CARD NUMBER</span>
+										</td>
+										<td class="formstyle centered">
+											<span class="bold">FIRST NAME</span>
+										</td>
+										<td class="formstyle centered">
+											<span class="bold">COUNTRY</span>
+										</td>
+										<td class="formstyle centered">
+											<span class="bold">STATE</span>
+										</td>
+										<td class="formstyle centered">
+											<span class="bold">CITY</span>
+										</td>
+										<td class="formstyle centered">
+											<span class="bold">ZIP</span>
+										</td>
+										<td class="formstyle centered">
+											<span class="bold">SSN</span>
+										</td>
+										<td class="formstyle centered">
+											<span class="bold">DOB</span>
+										</td>
+										<td class="formstyle centered">
+											<span class="red bold">COMMENT FOR THIS CARD</span>
+										</td>
+										<td class="formstyle centered">
+											<span class="bold">PRICE</span>
+										</td>
+										<td class="formstyle centered">
+											<input class="formstyle" type="checkbox" name="selectAllCards" id="selectAllCards" onclick="checkAll(this.id, &#39;cards[]&#39;)" value="">
+										</td>
+									</tr>
+									<tr>
+										<td colspan="12" class="centered">
+											<p>
+												<label>
+													<input name="txtBin" type="hidden" id="txtBin" value="">
+													<input name="txtCountry" type="hidden" id="txtCountry" value="">
+													<input name="lstState" type="hidden" id="lstState" value="">
+													<input name="lstCity" type="hidden" id="lstCity" value="">
+													<input name="txtZip" type="hidden" id="txtZip" value="">
+													<input name="addToCart" type="submit" class="blue bold" id="download_select" value="Add Selected Cards to Shopping Cart">
+												</label>
+											</p>
+										</td>
+									</tr>
+								
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+			<div id="footer">
+				If you are capable of providing high quality Cards, Fulls, Dumps, you could possibly become a reseller.<br>
+                                  Icq: 693050504<br>
+				Page loaded in 0.005 seconds.			</div>
+		</div>
+	
+
+</body></html>

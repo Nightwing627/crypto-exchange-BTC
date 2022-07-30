@@ -1,0 +1,21 @@
+﻿
+Search bin có thêm click visa | master | amex | Disco 
+User profile (change email, password, reference link)
+Có statics nhỏ ở admincp
+Nếu balance $0 có phần notice add $ buy cc 
+Captcha chống flood user 
+Tự động tách CC sắp hết hạn thành 1 mục riêng để có thể sửa lại giá nhanh hơn
+Tự động xóa cc hết date ra database export nó ra txt
+Add paygate Perfect money
+Có ref ăn chia phần trăm (edit % tại admincp)
+Mã hóa CC
+
+Add Search by card type( Visa | Master | Amex | Disco)
+User Profile (change email, password, reference link)
+Admin Cpanel have statics (total card, total sell ,...)
+If user balance is 0$, "notice to add $" show
+Add captcha in login and register
+Automatic split "Prepare expired card" (card expire this month) to a private category to easy edit and update price
+Automatic hide Expired card, admin can download and delete all of this in admincp
+Add paygate Perfect money
+Add reference user (if user help to registered a new user, then old user will get 10% total price the new user buy credit)
